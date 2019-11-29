@@ -1,0 +1,10 @@
+add libmysql.a to lib in mingw
+add mysqlheader files to include in mingw
+add libmysql.dll to exe location of project
+
+Add MySql folder to the project folder 
+
+Add below lines to cmake
+include_directories(mysql-master/include)
+link_directories(C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib)
+target_link_libraries(TestSQL libmysql.a)
