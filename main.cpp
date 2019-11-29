@@ -44,24 +44,27 @@ int main()
     if(conn)
     {
         cout<<"Connected\n";
+
+        int qstate=0;
+        stringstream ss;
+        string name= "Tharaka";
+        ss << "INSERT INTO test_table(name) VALUES('" << name << "')";
+        string query =ss.str();
+        const char* q=query.c_str();
+        qstate=mysql_query(conn,q);
+        if(qstate==0){
+            cout<<"Record Inserted...." ;
+        }else{
+            cout<<"Failed" ;
+        }
+
     }
     else
     {
         cout<<"Not Connected\n";
     }
 
-    int qstate=0;
-    stringstream ss;
-    string name= "Tharaka";
-    ss << "INSERT INTO test_table(name) VALUES('" << name << "')";
-    string query =ss.str();
-    const char* q=query.c_str();
-    qstate=mysql_query(conn,q);
-    if(qstate==0){
-        cout<<"Record Inserted...." ;
-    }else{
-        cout<<"Failed" ;
-    }
+
 
     return 0;
 }
