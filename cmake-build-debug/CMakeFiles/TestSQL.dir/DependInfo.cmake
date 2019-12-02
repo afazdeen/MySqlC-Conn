@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/MyPrrojects/TestSQL/MysqlConnection.cpp" "D:/MyPrrojects/TestSQL/cmake-build-debug/CMakeFiles/TestSQL.dir/MysqlConnection.cpp.obj"
   "D:/MyPrrojects/TestSQL/main.cpp" "D:/MyPrrojects/TestSQL/cmake-build-debug/CMakeFiles/TestSQL.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

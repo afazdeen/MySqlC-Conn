@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/MyPrrojects/TestSQL/DbConnection.h">
+			<Option target="TestSQL"/>
+		</Unit>
 		<Unit filename="D:/MyPrrojects/TestSQL/MySql/mysqlheaders/mysqlheaders/mysql.h">
+			<Option target="TestSQL"/>
+		</Unit>
+		<Unit filename="D:/MyPrrojects/TestSQL/MysqlConnection.cpp">
+			<Option target="TestSQL"/>
+		</Unit>
+		<Unit filename="D:/MyPrrojects/TestSQL/MysqlConnection.h">
 			<Option target="TestSQL"/>
 		</Unit>
 		<Unit filename="D:/MyPrrojects/TestSQL/main.cpp">

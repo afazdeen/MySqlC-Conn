@@ -1,1 +1,1 @@
- -LC:/Program  -LD:/MyPrrojects/TestSQL/Files  -LD:/MyPrrojects/TestSQL/(  -LD:/MyPrrojects/TestSQL/x86  -LD:/MyPrrojects/TestSQL/)  -L/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib -Wl,-Bstatic -lmysql -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -LD:/MyPrrojects/TestSQL/MySql/libmysql.a -Wl,-Bstatic -lmysql -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

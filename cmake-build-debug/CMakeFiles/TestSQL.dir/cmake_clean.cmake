@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TestSQL.dir/MysqlConnection.cpp.obj"
   "CMakeFiles/TestSQL.dir/main.cpp.obj"
   "TestSQL.exe"
   "TestSQL.exe.manifest"

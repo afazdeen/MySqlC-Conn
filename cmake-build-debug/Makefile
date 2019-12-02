@@ -122,6 +122,33 @@ TestSQL/fast:
 	$(MAKE) -f CMakeFiles\TestSQL.dir\build.make CMakeFiles/TestSQL.dir/build
 .PHONY : TestSQL/fast
 
+MysqlConnection.obj: MysqlConnection.cpp.obj
+
+.PHONY : MysqlConnection.obj
+
+# target to build an object file
+MysqlConnection.cpp.obj:
+	$(MAKE) -f CMakeFiles\TestSQL.dir\build.make CMakeFiles/TestSQL.dir/MysqlConnection.cpp.obj
+.PHONY : MysqlConnection.cpp.obj
+
+MysqlConnection.i: MysqlConnection.cpp.i
+
+.PHONY : MysqlConnection.i
+
+# target to preprocess a source file
+MysqlConnection.cpp.i:
+	$(MAKE) -f CMakeFiles\TestSQL.dir\build.make CMakeFiles/TestSQL.dir/MysqlConnection.cpp.i
+.PHONY : MysqlConnection.cpp.i
+
+MysqlConnection.s: MysqlConnection.cpp.s
+
+.PHONY : MysqlConnection.s
+
+# target to generate assembly for a file
+MysqlConnection.cpp.s:
+	$(MAKE) -f CMakeFiles\TestSQL.dir\build.make CMakeFiles/TestSQL.dir/MysqlConnection.cpp.s
+.PHONY : MysqlConnection.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... TestSQL
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... MysqlConnection.obj
+	@echo ... MysqlConnection.i
+	@echo ... MysqlConnection.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

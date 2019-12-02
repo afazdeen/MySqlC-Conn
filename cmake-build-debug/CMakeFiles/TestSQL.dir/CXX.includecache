@@ -38,11 +38,13 @@ custom_conf.h
 
 ../MySql/mysqlheaders/mysqlheaders/typelib.h
 
+D:/MyPrrojects/TestSQL/DbConnection.h
+
+D:/MyPrrojects/TestSQL/MysqlConnection.h
+DbConnection.h
+D:/MyPrrojects/TestSQL/DbConnection.h
+
 D:/MyPrrojects/TestSQL/main.cpp
-cppconn/driver.h
-D:/MyPrrojects/TestSQL/cppconn/driver.h
-cppconn/exception.h
-D:/MyPrrojects/TestSQL/cppconn/exception.h
 iostream
 -
 windows.h
@@ -51,4 +53,6 @@ mysql.h
 -
 sstream
 -
+MysqlConnection.h
+D:/MyPrrojects/TestSQL/MysqlConnection.h
 
